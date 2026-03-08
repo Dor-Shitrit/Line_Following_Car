@@ -26,7 +26,7 @@ for remote control and telemetry.
 ## 🧠 System Architecture
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/25ffa88d-c747-4be2-97b5-714cad9d755d" width="700"/>
+  <img src="https://github.com/user-attachments/assets/717a1b2c-3a49-42a3-9cad-f739f1f44398" width="500"/>
 </p>
 
 The ESP32 acts as the central controller that:
@@ -55,7 +55,7 @@ Main components used in the robot:
 ## 🔌 Wiring Diagram
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/32800341-a474-46e0-be57-80a89785e001" width="700"/>
+  <img src="https://github.com/user-attachments/assets/7080e27c-eb17-4600-bb08-b40a193c4292" width="700"/>
 </p>
 
 The circuit includes:
@@ -116,8 +116,6 @@ Where:
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Authors
+## 👨🏽‍💻 Authors
 
-Created by
-
-**Dor Shitrit** and **Daniel Levi**
+Created by **Dor Shitrit** and **Daniel Levi**
