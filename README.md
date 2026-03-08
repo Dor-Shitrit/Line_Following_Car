@@ -3,7 +3,7 @@
 An <b>ESP32-based smart line following robot</b> controlled via <b>Bluetooth Low Energy (BLE)</b>.
 The robot follows a line using <b>CNY70 infrared sensors</b> and dynamically adjusts speed and direction.
 </p>
-
+ 
 ------------------------------------------------------------------------
 
 ## 🚗 Project Overview
