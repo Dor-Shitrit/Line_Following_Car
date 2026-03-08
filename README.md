@@ -1,8 +1,8 @@
 # ESP32 BLE Line Following Car
-
-ESP32-based autonomous line following robot using **CNY70 infrared
-sensors**, **L293D motor drivers**, and **Bluetooth Low Energy (BLE)**
-communication.
+<p align="center">
+An <b>ESP32-based smart line following robot</b> controlled via <b>Bluetooth Low Energy (BLE)</b>.
+The robot follows a line using <b>CNY70 infrared sensors</b> and dynamically adjusts speed and direction.
+</p>
 
 ------------------------------------------------------------------------
 
