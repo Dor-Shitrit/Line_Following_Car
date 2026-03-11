@@ -8,9 +8,7 @@ The robot follows a line using <b>CNY70 infrared sensors</b> and dynamically adj
 
 ## 🚗 Project Overview
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a2e31e32-df83-4851-ad54-892a1847c068" width="300"/>
-</p>
+https://github.com/user-attachments/assets/50dbec59-6eb6-4332-bb06-9e8833e3e628
 
 This project implements a **line-following robotic car** controlled by
 an **ESP32 microcontroller**.
@@ -26,14 +24,14 @@ for remote control and telemetry.
 ## 🧠 System Architecture
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/717a1b2c-3a49-42a3-9cad-f739f1f44398" width="500"/>
+<img src="Assets/System Architecture.png" width="500">
 </p>
 
 The ESP32 acts as the central controller that:
 
--   Reads the sensor values
+-   Reads sensor values and averages them to improve accuracy
 -   Determines the required movement
--   Controls the motor drivers
+-   Controls the motor drivers using PWM
 -   Communicates via BLE
 
 ------------------------------------------------------------------------
@@ -55,13 +53,13 @@ Main components used in the robot:
 ## 🔌 Wiring Diagram
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7080e27c-eb17-4600-bb08-b40a193c4292" width="700"/>
+<img src="Assets/Wiring Diagram.png" width="700">
 </p>
 
 The circuit includes:
 
 -   ESP32 as the main controller
--   L293D drivers for motor control (using PWM)
+-   L293D drivers for motor control
 -   CNY70 sensors for line detection
 -   L7805CV voltage regulator for stable 5V power
 
